@@ -12,7 +12,7 @@ A simple and efficient Node.js module for converting CSV files to Excel (XLSX) f
 ## Installation
 
 ```bash
-npm install csv-to-excel-converter
+npm install @imrandil/csv-to-excel-converter
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install csv-to-excel-converter
 ### Basic Usage
 
 ```javascript
-const csvToExcel = require('csv-to-excel-converter');
+const csvToExcel = require('@imrandil/csv-to-excel-converter');
 
 const header = null; // Use null to extract headers from the CSV file
 const inputFilePath = './path/to/input.csv';
@@ -32,7 +32,7 @@ csvToExcel(header, inputFilePath, outPutFilePath);
 ### With Custom Headers
 
 ```javascript
-const csvToExcel = require('csv-to-excel-converter');
+const csvToExcel = require('@imrandil/csv-to-excel-converter');
 
 const header = [
   { header: 'id', key: 'id', width: 15 },
