@@ -10,9 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@imrandil/csv_to_json": "^1.0.1",
-    "csv-parser": "^3.0.0",
-    "csvtojson": "^2.0.10",
-    "exceljs": "^4.4.0"
+    "csv-parser": "3.0.0",
+    "exceljs": "4.4.0"
   }
 }
