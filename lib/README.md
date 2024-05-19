@@ -7,7 +7,6 @@ A simple and efficient Node.js module for converting CSV files to Excel (XLSX) f
 - **Stream-based processing**: Efficiently handles large CSV files.
 - **Optional header support**: Use your own header or extract from CSV data.
 - **Easy-to-use API**: Simple function call to convert your CSV to Excel.
-- **Supports styling**: Adds styles and shared strings to the workbook.
 
 ## Installation
 
